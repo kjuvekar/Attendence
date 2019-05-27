@@ -1,0 +1,61 @@
+html, body{
+	height: 100%;
+}
+.wrapper{
+	min-height: 100%;
+	margin: 0 auto -30px;
+}
+footer 
+{
+	background-color:black;
+	color:white;
+	clear:both;
+	text-align:center;
+	padding:5px;
+	bottom:0;
+	width:100%;
+}
+#menu {
+	width:15%;
+	float: left;
+	margin: 1%;
+}
+#menu .menuheads{
+	text-align: center;
+	color: black;
+}
+#menu .menuheads:hover{
+	background-color: #555;
+	color: white;
+}
+.sectionbranches{
+	background-color: #f2f2f2;
+}
+#content{
+	width: 81%;
+	float: right;
+	margin: 1%;
+	overflow: auto;
+}
+#report_form_div, #attendance_form_div{
+	float: center;
+	text-align: center;
+}
+#heading{
+	text-align: center;
+	display: initial;
+	margin: 0 22%;
+	min-height: 170px;
+}
+#logo{
+	float:left;
+	display: inline-block;
+}
+label.error{
+	color:red;
+	float:right;
+}
+#greet{
+	font-size: 20px;
+	text-align: center;
+}
